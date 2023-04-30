@@ -1,0 +1,60 @@
+   1) Посмотреть где я -  pwd
+   2) Создать папку -  mkdir dir1
+   3) Зайти в папку -  cd dir1
+   4) Создать 3 папки -  mkdir dir2 dir3 dir4
+   5) Зайти в любоую папку - cd dir2
+   6) Создать 5 файлов (3 txt, 2 json) -  touch file1.txt file2.txt file3.txt file1.json file2.json
+   7) Создать 3 папки -  mkdir dir5 dir6 dir7
+   8) Вывести список содержимого папки -  ls -la
+
+   9) + Открыть любой txt файл - cat >> file1.txt 
+   10) + написать туда что-нибудь, любой текст - пишем текст
+   11) + сохранить и выйти - ctrl+C
+
+   83  cd ..
+   __
+   13) переместить любые 2 файла, которые вы создали, в любую другую папку -  mv file1.txt dir5/file1.txt
+       mv file2.txt dir5/file2.txt
+   14) скопировать любые 2 файла, которые вы создали, в любую другую папку -  cp file1.json dir5/file1.json
+       cp file2.json dir5/file2.json
+   15) Найти файл по имени -  find -name file3.txt
+   16) просмотреть содержимое в реальном времени - tail -f file3.txt
+   17) вывести несколько первых строк из текстового файла -  head -n 2 file3.txt
+   18) вывести несколько последних строк из текстового файла -  tail -2 file3.txt
+   19) просмотреть содержимое длинного файла -  less file3.txt
+   20) вывести дату и время -  date
+
+   Задание *
+1) Отправить http запрос на сервер -
+   curl http://162.55.220.72:5005/terminal-hw-request
+
+
+script:
+
+
+
+cd folder
+
+mkdir folder1
+mkdir folder2
+mkdir folder3
+
+cd folder1
+
+touch file1.txt
+touch file2.txt
+touch file3.txt
+touch file4.json
+touch file5.json
+
+mkdir subfolder1
+mkdir subfolder2
+mkdir subfolder3
+
+ls
+
+mv file1.txt subfolder1/
+mv file2.txt subfolder1/
+
+
++ сохранить с формате .sh
